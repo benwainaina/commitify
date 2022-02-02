@@ -1,0 +1,71 @@
+.w-100-p {
+    width: 100%;
+}
+
+.h-100-p {
+    height: 100%;
+}
+
+.flex {
+    display: flex;
+}
+
+.flex-column {
+    flex-direction: column;
+}
+
+.flex-row {
+    flex-direction: row;
+}
+
+.flex-align-items-center {
+    align-items: center;
+}
+
+.flex-justify-contents-center {
+    justify-content: center;
+}
+
+.flex-justify-contents-end {
+    justify-content: end;
+}
+
+.grid {
+    display: grid;
+}
+
+.fixed {
+    position: fixed;
+}
+
+.absolute {
+    position: absolute;
+}
+
+.relative {
+    position: relative;
+}
+
+.top-0 {
+    top: 0;
+}
+
+.right-0 {
+    right: 0;
+}
+
+.bottom-0 {
+    bottom: 0;
+}
+
+.left-0 {
+    left: 0;
+}
+
+.no-text-decoration {
+    text-decoration: none;
+}
+
+.no-user-select {
+    user-select: none;
+}

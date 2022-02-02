@@ -1,0 +1,62 @@
+#wrapper {
+
+    #svg-graphics {
+        z-index: -1;
+    }
+
+    #header {
+        $header-padding-x-axis: 122px;
+        flex: 1;
+
+        #logo {
+            flex: 1;
+            padding-left: $header-padding-x-axis;
+        }
+
+        #dashboard-button-link {
+            flex: 1;
+            padding-right: $header-padding-x-axis;
+
+            #button {
+                color: white;
+                background: #CB29CE;
+                border-radius: 10px;
+                padding: 21px 139px;
+                cursor: pointer;
+                opacity: .9;
+
+                &:hover {
+                    opacity: 1;
+                }
+            }
+        }
+    }
+
+    #content {
+        flex: 8;
+
+        .invitational-title {
+            flex: 1;
+            font-family: Sniglet;
+            font-style: normal;
+            font-weight: normal;
+            font-size: 36px;
+            line-height: 45px;
+            color: #000000;
+        }
+
+        .mock-sample-svg {
+            flex: 9;
+        }
+    }
+
+    #footer {
+        flex: 1;
+        font-family: Roboto;
+        font-style: normal;
+        font-weight: normal;
+        font-size: 24px;
+        line-height: 28px;
+        color: #000000;
+    }
+}
