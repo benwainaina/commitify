@@ -10,7 +10,7 @@ commits on their github repositories.
 
 - Angular version 13
 - Typescript 4.4
-- Node 12.20.0 higher
+- Node 12.20.0 or higher
 
 ## How to run the application
 
